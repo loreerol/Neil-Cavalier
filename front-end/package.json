@@ -1,0 +1,32 @@
+{
+  "name": "front-end",
+  "version": "2.1.8",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-image": "^2.1.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "sass": "^1.17.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

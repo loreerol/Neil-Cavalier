@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="./favicon.ico?" type="image/x-icon" />
+    <title>Neil Cavalier</title>
+    <style>
+      @font-face {
+        font-family: "Roboto";
+        src: url("./fonts/Roboto-Medium.ttf") format("truetype");
+      }
+      body {
+        background-color: #171717;
+      }
+      .letter-holder {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 5vh;
+        left: 10vh;
+        opacity: 1;
+        -webkit-animation-name: loading;
+        -webkit-animation-duration: 0.1s;
+        -webkit-animation-delay: 1s;
+        animation-name: loading;
+        animation-duration: 0.1s;
+        animation-delay: 1s;
+      }
+
+      @-webkit-keyframes loading {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes loading {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .letter-holder div {
+        font-family: Roboto;
+        color: White;
+        font-size: 2em;
+      }
+
+      .load-wrapp p {
+        padding: 0 0 20px;
+      }
+      .load-wrapp:last-child {
+        margin-right: 0;
+      }
+      .load .letter {
+        animation-name: loadingF;
+        animation-duration: 1.6s;
+        animation-iteration-count: infinite;
+        animation-direction: linear;
+      }
+
+      .l-1 {
+        animation-delay: 0.48s;
+      }
+      .l-2 {
+        animation-delay: 0.6s;
+      }
+      .l-3 {
+        animation-delay: 0.72s;
+      }
+      .l-4 {
+        animation-delay: 0.84s;
+      }
+      .l-5 {
+        animation-delay: 0.96s;
+      }
+      .l-6 {
+        animation-delay: 1.08s;
+      }
+      .l-7 {
+        animation-delay: 1.2s;
+      }
+      .l-8 {
+        animation-delay: 1.32s;
+      }
+      .l-9 {
+        animation-delay: 1.44s;
+      }
+      .l-10 {
+        animation-delay: 1.56s;
+      }
+      @keyframes loadingF {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript> Please enable JavaScript! </noscript>
+    <div id="root">
+      <div class="load-wrapp">
+        <div class="load">
+          <div class="letter-holder">
+            <div class="l-1 letter">L</div>
+            <div class="l-2 letter">o</div>
+            <div class="l-3 letter">a</div>
+            <div class="l-4 letter">d</div>
+            <div class="l-5 letter">i</div>
+            <div class="l-6 letter">n</div>
+            <div class="l-7 letter">g</div>
+            <div class="l-8 letter">.</div>
+            <div class="l-9 letter">.</div>
+            <div class="l-10 letter">.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
