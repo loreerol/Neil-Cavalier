@@ -1,5 +1,5 @@
 # assets
-front-end/src/_assets/*
+front-end/src/_assets/
 
 # dependencies
 /node_modules
@@ -11,7 +11,7 @@ front-end/src/_assets/*
 /build
 
 # credentials
-/back-end/config/config.js
+/back-end/config/
 
 # misc
 .DS_Store
